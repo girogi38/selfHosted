@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "existingDataFactoryName": {
+      "value":"IBH-DATO-ADF"
+    },
+    "existingDataFactoryResourceGroup": {
+      "value":"IBH-DATO-DEV"
+    },
+    "existingDataFactoryVersion": {
+      "value":"V2"
+    },
+    "IntegrationRuntimeName": {
+      "value":"AutoResolveIntegrationRuntime"
+    },
+    "NodeCount":{
+      "value": 1
+    },
+    "adminUserName": {
+      "value": "userdemo"
+    },
+    "adminPassword": {
+      "value": "demopasword"
+    },
+    "existingVirtualNetworkName":{
+      "value": "IBH-DATO-AVN"
+    },
+    "existingVnetLocation":
+    {
+      "value": "West Europe"
+    },
+    "existingVnetResourceGroupName":{
+      "value": "IBH-DATO-DEV"
+    },
+    "existingSubnetInYourVnet": {
+      "value": "IBH-DATO-ASN-001"
+    }
+  }
+}
